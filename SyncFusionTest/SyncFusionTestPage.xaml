@@ -9,12 +9,13 @@
         Text             ="Welcome to Xamarin Forms!"
         VerticalOptions  ="Center"
         HorizontalOptions="Center" />
-    <syncfusion:SfBusyIndicator
+    <Button Text="LOGIN"/>
+  <!--  <syncfusion:SfBusyIndicator
         x:Name       ="busyindicator"
         AnimationType="Battery"
         ViewBoxWidth ="150"
         ViewBoxHeight="150"
         TextColor    ="Maroon"
         IsBusy="{Binding IsBusy}"
-        IsVisible="{Binding IsBusy}"/>
+        IsVisible="{Binding IsBusy}"/>-->
 </ContentPage>
